@@ -1,14 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Love</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('./assets/images/background.webp');
+        }
+
+        img {
+            height: 400px;
+            width: 450px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            background-color: antiquewhite;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .img-container {
+            background-color: antiquewhite;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        h1 {
+            color: #ff69b4;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff4d80;
+        }
+    </style>
 </head>
 
 <body>
-
+    <div class="container" id="main-container">
+        <h1>I Love you sweetheart!!</h1>
+        <p>You make my life complete, and I can't imagine it any other way.</p>
+        <button id="btn" onclick="showImg()">Click to get a Surprise!</button>
+    </div>
+    <div class="img-container" id="img-section">
+        <img src="./assets/images/us.jpg" alt="Happy Us" />
+        <button id="btn"  onclick="hideImg()">Go back</button>
+    </div>
 </body>
+
+<script>
+    function showImg() {
+        let mainDiv = document.getElementById("main-container");
+        mainDiv.style.display = "none";
+        let imgDiv = document.getElementById("img-section");
+        imgDiv.style.display = "grid";
+    }
+
+    function hideImg() {
+        let mainDiv = document.getElementById("main-container");
+        mainDiv.style.display = "block";
+        let imgDiv = document.getElementById("img-section");
+        imgDiv.style.display = "none";
+    }
+    
+</script>
 
 </html>
