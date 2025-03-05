@@ -1,7 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .main {
     height: 200px;
     width: 100%;
 }
-.main .1st {
-
+.main .first {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    border-color: black;
+}
+.main .second {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    float: left;
+}
+.main .third {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+}
+.main .fourth {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
 }
