@@ -2,26 +2,29 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .main {
     height: 400px;
     width: 100%;
 }
+
 .main .left {
     height: 400px;
     width: 33.3%;
     background-color: red;
     float: left;
 }
+
 .main .mid {
     height: 400px;
     width: 33.3%;
     background-color: black;
     float: left;
-    }
-    .main .right {
-        height: 400px;
-        width: 33.3%;
-        background-color: blue;
-        float: left;
-    }
-       
+}
+
+.main .right {
+    height: 400px;
+    width: 33.3%;
+    background-color: blue;
+    float: left;
+}
