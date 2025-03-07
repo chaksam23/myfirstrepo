@@ -1,9 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .main {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+    display: flex;
 }
 .main .first {
-    height: 250px;
-    width: 250px;
-    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-color: red;
+    border: 2px black solid;
+    display: flex;
+
+}
+.main .second {
+    height: 200px;
+    width: 200px;
+    border-color: green;
+    border: 2px black solid;
+    display: flex;
+
+}
+.main .third {
+    height: 200px;
+    width: 200px;
+    border-color: blue;
+    border: 2px black solid;
+    display: flex;
+
+}
+.main .fourth {
+    height: 200px;
+    width: 200px;
+    border-color: yellow;
+    border: 2px black solid;
+    display: flex;
+
 }
