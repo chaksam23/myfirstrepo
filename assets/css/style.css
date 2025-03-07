@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.full {
+    height: 400px;
+}
+.left {
+    height: 400px;
+    background-color: blue;
+}
+.midd {
+    height: 400px;
+    background-color: rgb(255, 0, 0);
+}
+.right {
+    height: 400px;
+    background-color: rgb(145, 255, 0);
+}
