@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+.division {
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+}
+.container {
+    background-color: gray;
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    min-height: 70vh;
+}
+.content {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+}
+.tab {
+    height: 200px;
+    width: 400px;
+}
