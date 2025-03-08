@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    height: 100%;
+    background-color: white;
+}
+.next {
+    height:  100%;
+    background-color: white; 
+}
+.midd {
+    height:  100%;
+    background-color: yellow;
+}
+.up {
+    height: 100%;
+    background-color: white;
+}
+.top {
+    height: 100%;
+    background-color: white;
+}
