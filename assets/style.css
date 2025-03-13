@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: flex;
 }
-.container-form {
+.form-container {
     background-color: rgba(255, 255, 255, 0.055);
     padding: 20px;
     box-shadow: 0 4px 10px , black;
@@ -36,7 +36,13 @@ body {
     font-size: 15px;
 }
 .form-group input:focus {
-   border-color: aqua;
+   border-color: gray;
    outline: none;
-   resize: vertical;
+}
+.submit {
+    background-color: rgb(0, 77, 128);
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    color: white;
 }
