@@ -4,5 +4,39 @@
     box-sizing: border-box;
 }
 body {
-    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+.container-form {
+    background-color: rgba(255, 255, 255, 0.055);
+    padding: 20px;
+    box-shadow: 0 4px 10px , black;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.897);
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.form-group input:focus {
+   border-color: aqua;
+   outline: none;
+   resize: vertical;
 }
