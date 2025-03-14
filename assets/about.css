@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    background-color: maroon;
+}
+.para {
+    font-style: italic;
+    color: white;
+    background-color:rgb(77, 0, 128) ;
+    text-align: center;
+}
+.lists {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: maroon;
+    font-style: italic;
+}
+.points {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: rgb(77, 0, 128);
+}

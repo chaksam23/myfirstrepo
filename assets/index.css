@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    color: white;
+    background-color: maroon;
+    text-align: center;
+}
+.image {
+    font-size: 25px; 
+    font-style: italic; 
+    color: red;"
+}
+.info {
+    color: maroon; 
+    text-align: center
+}
