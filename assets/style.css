@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
@@ -11,23 +12,27 @@ body {
     height: 100vh;
     display: flex;
 }
+
 .form-container {
     background-color: rgba(255, 255, 255, 0.055);
     padding: 20px;
-    box-shadow: 0 4px 10px , black;
+    box-shadow: 0 4px 10px black;
     border-radius: 10px;
     width: 100%;
     max-width: 400px;
 }
+
 .form-group {
     margin-bottom: 20px;
 }
+
 .form-group label {
     display: block;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.897);
     margin-bottom: 5px;
 }
+
 .form-group input {
     width: 100%;
     padding: 10px;
@@ -35,14 +40,47 @@ body {
     border-radius: 4px;
     font-size: 15px;
 }
+
 .form-group input:focus {
-   border-color: gray;
-   outline: none;
+    border-color: gray;
+    outline: none;
 }
+
 .submit {
     background-color: rgb(0, 77, 128);
     cursor: pointer;
     height: 40px;
     width: 60px;
     color: white;
+}
+
+.btn {
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 25PX;
+    cursor: pointer;
+    border: 1px solid black;
+
+    &:hover {
+        background-color: blue;
+        color: white;
+    }
+}
+
+.primary {
+    background-color: red;
+    color: white;
+}
+
+.secondary {
+    background-color: darkgrey;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
