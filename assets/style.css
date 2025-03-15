@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 40px;
+}
+
+.image h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+
+.image h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.header {
+    margin-top: 40px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.body {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.body2 {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.container-list {
+    display: flex;
+    gap: 2;
+    flex-direction: column;
+    text-align: right;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    background-color: azure;
+    margin: 0;
+}
+
+.reg {
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 10px;
+    background-color: azure;
+}
