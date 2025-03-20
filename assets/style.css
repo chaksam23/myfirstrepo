@@ -57,3 +57,23 @@ body {
     box-shadow: 10px;
     background-color: azure;
 }
+
+.header {
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body {
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div {
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
