@@ -77,3 +77,28 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
+
+.head {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+.info {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+.header {
+    margin: 10px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.div {
+    margin: 30px;
+    padding: 40px;
+    font-size: 30px;
+}
