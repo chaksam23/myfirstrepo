@@ -1,7 +1,33 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
 }
 .box1 {
     height: 260px;
 }
+
+.content {
+    height: 120px;
+    width: 247px;
+    display: flex;
+   
+}
+
+.img {
+    height: 120px;
+    width: 140px;
+}
+.top {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle {
+    font-size: 15px;
+}
+
+.btn {
+    text-align: center;
+    
+
+}
+    
