@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.card1 {
+    height: 400px;
+}
+.card1 h5 {
+    padding: 5px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.card1 .btn {
+    border-radius: 10px;
+}
