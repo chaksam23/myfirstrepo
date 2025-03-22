@@ -101,4 +101,8 @@ body {
     margin: 30px;
     padding: 40px;
     font-size: 30px;
+    border: 10px double;
+    border-color: cadetblue;
+    box-sizing: border-box;
+    height:350px;
 }
