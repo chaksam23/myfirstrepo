@@ -1,9 +1,6 @@
 body {
-    margin: 5px;
-    padding: 5px;
-}
-.box1 {
-    height: 260px;
+    margin: ;
+    padding: ;
 }
 
 .content {
@@ -12,7 +9,6 @@ body {
     display: flex;
    
 }
-
 .img {
     height: 120px;
     width: 140px;
@@ -24,10 +20,12 @@ body {
 .middle {
     font-size: 15px;
 }
-
 .btn {
     text-align: center;
     
 
+}
+.button {
+    
 }
     
