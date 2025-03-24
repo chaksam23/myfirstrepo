@@ -22,10 +22,14 @@ body {
 }
 .btn {
     text-align: center;
-    
+    }
+.header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .button {
-    
+    text-align: center;
 }
     
