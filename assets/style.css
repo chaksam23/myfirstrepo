@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-marquee {
+    height: 30px;
+    background-color: #36030C;
+}
+.top-marquee p {
+    color: white;
+    text-transform: uppercase;
+}
