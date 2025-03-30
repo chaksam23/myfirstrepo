@@ -43,6 +43,27 @@ body {
         100% { opacity: 0 }
         }
 .name {
-    height: 100px;
+    height: 120px;
     background-color:#750014 ;
+    padding-left: 60px;
 }
+.name h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+.name h4 {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.name p {
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
