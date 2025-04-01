@@ -7,46 +7,70 @@ body {
     height: 30px;
     background-color: #36030C;
 }
+
 .top-marquee p {
     color: white;
     text-transform: uppercase;
 }
+
 .top-marquee-midd {
     height: 30px;
     background-color: black;
     color: white;
 }
+
 .blink {
-        background-color: red;
-        color: white;
-        animation: blink 1.5s infinite;
+    background-color: red;
+    color: white;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0
     }
-    @keyframes blink {
-            0% { opacity: 0 }
-            50% { opacity: 1 }
-            100% { opacity: 0 }
-            }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
 
 .top-marquee-midd a {
     padding-left: 20px;
     padding-right: 20px;
-    
+
 }
+
 .blink-m {
     background-color: red;
     color: white;
     animation: blink 1.5s infinite;
 }
+
 @keyframes blink {
-        0% { opacity: 0 }
-        50% { opacity: 1 }
-        100% { opacity: 0 }
-        }
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
 .name {
     height: 120px;
-    background-color:#750014 ;
+    background-color: #750014;
     padding-left: 60px;
 }
+
 .name h3 {
     font-weight: bold;
     color: white;
@@ -54,16 +78,17 @@ body {
     padding-top: 10px;
     text-align: center;
 }
+
 .name h4 {
     font-weight: bold;
     color: white;
     font-size: 14px;
     text-align: center;
 }
+
 .name p {
     font-weight: bold;
     color: white;
     font-size: 10px;
     text-align: center;
 }
-
