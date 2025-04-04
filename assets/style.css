@@ -66,7 +66,7 @@ body {
 }
 
 .name {
-    height: 120px;
+    height: 110px;
     background-color: #750014;
     padding-left: 60px;
 }
@@ -91,4 +91,21 @@ body {
     color: white;
     font-size: 10px;
     text-align: center;
+}
+
+.main-menu {
+    height: 37px;
+    background-color: #36030C;
+}
+.mid-menu nav ul li a {
+    font-size: 13px;
+    padding-top: 2px;
+    color: #fff!important;
+} 
+.dropdown-menu .dropdown-item {
+    color: #000;
+    line-height: 30px;
+}
+.dropdown-menu {
+    color: #808080;
 }
