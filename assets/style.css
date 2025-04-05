@@ -11,6 +11,7 @@ body {
 .top-marquee p {
     color: white;
     text-transform: uppercase;
+    font-style: italic;
 }
 
 .top-marquee-midd {
@@ -74,7 +75,8 @@ body {
 .name h3 {
     font-weight: bold;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 10px;
     text-align: center;
 }
@@ -97,15 +99,25 @@ body {
     height: 37px;
     background-color: #36030C;
 }
+
 .mid-menu nav ul li a {
     font-size: 13px;
     padding-top: 2px;
-    color: #fff!important;
-} 
+    color: #fff !important;
+}
+
 .dropdown-menu .dropdown-item {
-    color: #000;
     line-height: 30px;
 }
+
 .dropdown-menu {
-    color: #808080;
+    border-radius: 14px !important;
+    background-color: grey !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgba(127, 255, 212, 0.123) !important;
+}
+.slider-area {
+    height: 600px;
 }
