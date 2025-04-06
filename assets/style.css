@@ -190,14 +190,16 @@ body {
 }
 
 .image-section {
-    height: 432px;
-    width: 398px;
-    background-color: #fff;
-    margin-top: 35px !important;
-    margin-left: 45px !important;
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-    border-radius: 10px 10px 10px 10px;
-    overflow-y: scroll;
+   height: 432px;
+   width: 398px;
+   background-color: #fff;
+   margin-top: 35px!important;
+   margin-left: 45px!important;
+   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+   border-radius: 10px;
+   /* overflow-y: scroll; */
+   overflow: auto;
+   padding: 20px;
 }
 
 .image-section p {
