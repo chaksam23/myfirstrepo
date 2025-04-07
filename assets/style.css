@@ -107,20 +107,23 @@ body {
 .mid-menu nav ul li a {
     font-size: 13px;
     padding-top: 2px;
-    color: #fff !important;
+    color: white !important;
 }
 
 .dropdown-menu .dropdown-item {
     line-height: 30px;
+    color: black !important;
 }
 
 .dropdown-menu {
     border-radius: 14px !important;
-    background-color: grey !important;
+    background-color: white !important;
+
 }
 
 .dropdown-menu .dropdown-item:hover {
     background-color: rgba(127, 255, 212, 0.123) !important;
+
 }
 
 .slider-area {
@@ -128,7 +131,7 @@ body {
 }
 
 .background {
-    height: 700px;
+    height: 480px;
     width: 100%;
     background-color: #FCE3E8;
     padding-right: 0px;
@@ -190,16 +193,15 @@ body {
 }
 
 .image-section {
-   height: 432px;
-   width: 398px;
-   background-color: #fff;
-   margin-top: 35px!important;
-   margin-left: 45px!important;
-   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-   border-radius: 10px;
-   /* overflow-y: scroll; */
-   overflow: auto;
-   padding: 20px;
+    height: 432px;
+    width: 398px;
+    background-color: #fff;
+    margin-top: 35px !important;
+    margin-left: 45px !important;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-radius: 10px;
+    /* overflow-y: scroll; */
+    overflow: auto;
 }
 
 .image-section p {
@@ -219,12 +221,10 @@ body {
 
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-    height: 600px;
+.container-bg {
+    height: 550px;
     width: 100%;
-    background-color: #E9ECEF;
+    background-color: aliceblue;
 }
 
 .content {
@@ -232,6 +232,13 @@ body {
     width: 350px;
     background-color: white;
     color: black;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+    border-radius: 10px;
     text-align: center;
+    margin: 30px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 700;
 }
