@@ -131,7 +131,7 @@ body {
 }
 
 .background {
-    height: 480px;
+    height: 520px;
     width: 100%;
     background-color: #FCE3E8;
     padding-right: 0px;
@@ -221,24 +221,56 @@ body {
 
 }
 
-.container-bg {
-    height: 550px;
+.background2 {
+    height: 470px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #FFFFFF;
 }
-
-.content {
+.Principals-desk {
+    height: 330px;
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 14px;
+    margin-left: 65px !important;
+}
+.youtube-link {
+    height: 330px;
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 14px;
+    margin-left: 45px !important;
+    margin-right: 10px!important;
+}
+.youtube-link iframe {
+    height: 300px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.background3 {
     height: 400px;
-    width: 350px;
-    background-color: white;
-    color: black;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
-    border-radius: 10px;
-    text-align: center;
-    margin: 30px;
+    width: 100%;
+    background-color: #750014;
 }
-
-.content p {
-    font-size: 20px;
-    font-weight: 700;
+.footer h5 {
+    text-transform: uppercase;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+.footer p {
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.footer-mid h5 {
+    text-transform: uppercase;
+    padding-left: 40px;
+    text-decoration: underline;
+    color: white;
+}
+.footer-mid ul li {
+    color: white;
+    font-size: 15px;
+}
+.footer-bottom {
+    margin-top: 70px;
 }
