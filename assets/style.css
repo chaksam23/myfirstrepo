@@ -191,6 +191,12 @@ body {
         opacity: 0
     }
 }
+.text {
+    height: 20px;
+    background-color: #F3F3F3!important;
+    color: #000!important;
+    margin-top: 1px!important;
+}
 
 .image-section {
     height: 432px;
@@ -231,8 +237,12 @@ body {
     background-color: #F2F2F2;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 14px;
-    margin-left: 65px !important;
+    margin-left: 65px !important
 }
+.about-principal {
+    font-size: 13px;
+
+}                            
 .youtube-link {
     height: 330px;
     background-color: #F2F2F2;
@@ -270,6 +280,7 @@ body {
 .footer-mid ul li {
     color: white;
     font-size: 15px;
+    cursor: pointer;
 }
 .footer-bottom {
     margin-top: 70px;
