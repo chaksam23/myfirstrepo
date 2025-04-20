@@ -3,27 +3,7 @@ body {
     padding: 0;
 }
 
-.top-header {
-    height: 35px;
-    background-color: #B39D6F;
-}
-
-.top-header p {
-    text-align: center;
-    font-size: 16px;
-    padding-top: 7px;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: initial;
-}
-.second-top {
-    height: 70px;
-    background-color: aliceblue;
-}
-.nes-logo {
-    padding-left: 30px;
-}
-.chart {
-    text-transform: uppercase;
+.top-links {
+    height: 45px;
+    background-color: #173456;
 }
