@@ -1,26 +1,44 @@
 
 
+let month = parseInt(prompt('Enter Number'))
 
-let subject = 'English';
+switch('month') {
+    case 0:document.write('The Month is January')
+    break;
 
-if(subject == 'English') {
-    document.write("Subject is English")
-}
-else if(subject == 'Bengali') {
-    document.write("Subject is Bengali")
-}
-else if(subject == 'Hindi') {
-    document.write("Subject is Hindi")
-}
-else if(subject == 'Math') {
-    document.write("Subject is Math")
-}
-else if(subject == 'Biology') {
-    document.write("Subject is Biology")
-}
-else {
-    document.write('Subject is Invalid')
-}
+    case 1:document.write('The Month is February')
+    break;
 
+    case 2:document.write('The Month is March')
+    break;
 
+    case 3:document.write('The Month is April')
+    break;
+
+    case 4:document.write('The Month is May')
+    break;
+
+    case 5:document.write('The Month is June')
+    break;
+    
+    case 6:document.write('The Month is July')
+    break;
+    
+    case 7:document.write('The Month is August')
+    break;
+
+    case 8:document.write('The Month is September')
+    break;
+
+    case 9:document.write('The Month is October')
+    break;
+
+    case 10:document.write('The Month is November')
+    break;
+
+    case 11:document.write('The Month is December')
+    break;
+
+    default:document.write('This is Invalid')
+}
 
