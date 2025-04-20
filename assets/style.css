@@ -6,4 +6,12 @@ body {
 .top-links {
     height: 45px;
     background-color: #173456;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 60px;
+}
+.upper-section {
+    height: 150px;
+    background-color: lightpink;
+
 }
