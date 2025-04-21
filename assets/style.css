@@ -78,3 +78,13 @@ body {
     font-size: 15px;
     font-weight: bold;
  }
+.principals-desk {
+    height: 450px;
+    background-color: #EEEEEE;
+    margin-top: 10px!important;
+}
+.principals-desk img {
+    padding-top: 50px;
+    padding-right: 55px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
