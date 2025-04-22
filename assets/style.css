@@ -123,17 +123,63 @@ body {
     /* text-decoration: underline; */
 
 }
+
 .notice-item {
     padding-top: 10px;
     margin: 14px;
-    margin-top: 20px!important;
+    margin-top: 20px !important;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 8px;
 }
+
 .image-section {
     padding-top: 10px;
     margin: 14px;
-    margin-top: 20px!important;
+    margin-top: 20px !important;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 8px;
+}
+
+.about-section {
+    height: 500px;
+    background-color: #F3F3F3;
+}
+
+.about-section img {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 50%;
+}
+
+.founder-details {
+    height: 570px;
+    background-color: beige;
+}
+
+.founder-details img {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.founder-details h2 {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.founder-details p {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 20px;
+
+}
+.founder-details button {
+    margin-bottom: 15px;
+}
+
+.rossetti {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    margin-top: 20px;
+
 }
