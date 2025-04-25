@@ -110,11 +110,10 @@ body {
     text-transform: uppercase;
 }
 
-.notice-board p {
+.items {
     text-align: justify;
     font-size: 20px;
     /* text-decoration: underline; */
-
 }
 
 .notice-item {
@@ -175,4 +174,16 @@ body {
     border-radius: 10px;
     margin-top: 20px;
 
+}
+
+.footer {
+    height: 400px;
+    background-color:#173456;
+}
+.footer p {
+    color: #EEEEEE;
+    padding: 20px;
+}
+.footer iframe {
+    padding-top: 50px;
 }
