@@ -35,13 +35,6 @@ body {
     text-shadow: .1em .1em 0 hsl(200 50% 30%);
 }
 
-.text {
-    font-size: 15px;
-    font-weight: bold;
-    padding-top: 12px;
-    text-align: justify;
-}
-
 .blink-text {
     height: 40px;
     background-color: #173456;
