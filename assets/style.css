@@ -61,6 +61,8 @@ body {
     }
 }
 
+
+
 .navbar-expand-lg {
     height: 45px;
     background-color: #7952B3;
@@ -160,7 +162,7 @@ body {
 }
 
 .founder-details p {
-    font-size: 22px;
+    font-size: 19px;
     text-align: justify;
     padding-right: 20px;
 
@@ -169,21 +171,35 @@ body {
     margin-bottom: 15px;
 }
 
-.rossetti {
+/* .rossetti {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 10px;
     margin-top: 20px;
 
+} */
+
+.video-gallery {
+    height: 350px;
+    background-color: antiquewhite;
+}
+.video-gallery p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic ;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .footer {
-    height: 400px;
+    height: 350px;
     background-color:#173456;
 }
 .footer p {
     color: #EEEEEE;
-    padding: 20px;
+    padding-left: 20px;
+    cursor: pointer;
 }
 .footer iframe {
-    padding-top: 50px;
+    padding-top: 20px;
 }
