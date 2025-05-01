@@ -12,6 +12,34 @@ body {
     display: block;
 }
 
+@media screen and (max-width: 600px) {
+    .logo-section {
+        display: flex;
+        flex-flow: row;
+        gap: 20px;
+    }
+    .menu-content {
+        height: auto!important;
+        display: inline;
+        font-size: 10px;
+    }
+    .images {
+        display: none;
+    }
+    .name-section {
+        height: auto!important;
+    }
+    .blink-text {
+        height: auto!important;
+    }
+    .slider-area {
+        height: auto!important;
+    }
+    .navbar-expand-lg {
+        height: auto!important;
+    }
+}
+
 .menu-content {
     float: inline-end;
 }
@@ -204,10 +232,4 @@ body {
     padding-top: 20px;
 }
 
-@media screen and (max-width: 480px) {
-    .logo-section {
-        display: flex;
-        flex-flow: row;
-        gap: 20px;
-    }
-}
+
