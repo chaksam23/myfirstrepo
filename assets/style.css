@@ -29,16 +29,85 @@ body {
     .name-section {
         height: auto!important;
     }
-    .blink-text {
+    /* .blink-text {
         height: auto!important;
-    }
+        display: none;
+    } */
     .slider-area {
         height: auto!important;
     }
-    .navbar-expand-lg {
+    .live-option {
         height: auto!important;
     }
+    .principals-desk {
+        height: auto !important;
+        padding: 15px;
+    }
+    .principals-desk img {
+        height: auto!important;
+        background-color: none;
+        height: auto !important;
+        padding: 8px;
+        margin: -8px;
+    }
+    .principals-desk p {
+        /* font-size: 7px; */
+        padding-top: 18px;
+    }
+    .notice-board {
+        height: auto!important;
+        padding: 5px;
+    }
+    .items {
+        padding-right: 17px;
+        font-size: 5px;
+        margin-right: 18px;
+    }
+    .image-section img {
+        height: 350px;
+        width: 385px;
+        padding: 5px;
+    }
+    .about-section {
+        padding: 5px;
+    }
+    .university-image {
+        height: 100px;
+        width: 100px;
+        display: none;
+    }
+    .founder-details img {
+        display: none;
+    }
+    .founder-details h2 {
+        height: auto!important;
+        margin-top: 190px;
+    }
+    .founder-details p {
+        height: auto!important;
+        margin-top: 15px;
+    }
+    .video-gallery p {
+        height: auto!important;
+        margin-top: 275px;
+    }
+    .video-gallery iframe {
+        height: 200px;
+        width: 400px;
+        padding: 10px;
+    }
+    .footer {
+        height: auto!important;
+        margin-top: 100px;
+    }
+    .address {
+        height: auto;
+        margin: 14px;
+        padding-top: 829px;
+
+    }
 }
+
 
 .menu-content {
     float: inline-end;
@@ -223,7 +292,12 @@ body {
     height: 350px;
     background-color:#173456;
 }
-.footer p {
+.address {
+    color: #EEEEEE;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.options {
     color: #EEEEEE;
     padding-left: 20px;
     cursor: pointer;
