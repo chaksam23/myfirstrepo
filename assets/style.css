@@ -28,10 +28,14 @@ body {
     }
     .name-section {
         height: auto!important;
+        display: none;
+    }
+    .upper-section button {
+        display: none;
     }
     /* .blink-text {
         height: auto!important;
-        display: none;
+        display: none; 
     } */
     .slider-area {
         height: auto!important;
