@@ -9,11 +9,11 @@
 //     console.log(n+ " * "+ i+ "="+ n*i)
 // }
 
- let i = 1;
- while(i<=5) {
-     document.write("@" .repeat(i)+ '<br>')
-     i++;
- }
+//  let i = 1;
+//  while(i<=5) {
+//      document.write("@" .repeat(i)+ '<br>')
+//      i++;
+//  }
 
 // let n = 5;
 // do{
@@ -21,3 +21,21 @@
 //     n++;
 // }
 // while(n <10);
+
+
+function hello() {
+    document.getElementById(content)
+    content.style.backgroundColor = "black"
+    content.style.color = "#eee"
+}
+
+function undo() {
+    document.getElementById(content)
+    content.style.backgroundColor = 'blue'
+    content.style.color = 'black'
+}
+
+// function form() {
+
+//     alert = ('Form successfully submitted')
+// }
