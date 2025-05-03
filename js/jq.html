@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<style>
+    #content-intro {
+        height: 100px;
+        width: 100px;
+        background-color: lightblue;
+        color: #000;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <p id="content-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button id="btn">Click Here</button>
+
+    <!-- <script>
+        $(document).ready(function(){
+            document.write('Hello User')
+        })
+    </script> -->
+
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                $("#content-intro").css('height' , '300px')
+            })
+            $('#btn').dblclick(function(){
+                $("#content-intro").css('height' , '100px');
+            })
+
+            
+        })
+    </script>
+
+</body>
+
+</html>
