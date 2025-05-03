@@ -23,19 +23,40 @@
 // while(n <10);
 
 
-function hello() {
-    document.getElementById(content)
-    content.style.backgroundColor = "black"
-    content.style.color = "#eee"
-}
+// function hello() {
+//     document.getElementById(content)
+//     content.style.backgroundColor = "black"
+//     content.style.color = "#eee"
+// }
 
-function undo() {
-    document.getElementById(content)
-    content.style.backgroundColor = 'blue'
-    content.style.color = 'black'
-}
+// function undo() {
+//     document.getElementById(content)
+//     content.style.backgroundColor = 'blue'
+//     content.style.color = 'black'
+// }
 
 // function form() {
 
 //     alert = ('Form successfully submitted')
 // }
+
+
+// document.getElementById('content').innerHTML =
+
+// Math.max(56,899,54,98)
+
+// document.getElementById('content').innerHTML =
+
+// Math.min(56,899,54,98)
+
+// document.getElementById('content').innerHTML =
+
+// Math.abs(-56,899,54,98)
+
+// document.getElementById('content').innerHTML =
+
+// Math.sqrt(100)
+
+document.getElementById('content').innerHTML =
+
+Math.random()
