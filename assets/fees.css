@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top-links {
+    height: 45px;
+    background-color: #173456;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 5px;
+    display: block;
+}
+@media screen and (max-width: 600px) {
+    .logo-section {
+        display: flex;
+        flex-flow: row;
+        gap: 20px;
+    }
+    .menu-content {
+        height: auto!important;
+        display: inline;
+        font-size: 10px;
+    }
+    .name-section {
+        height: auto!important;
+        display: none;
+    }
+    .upper-section button {
+        display: none;
+    }
+    .footer {
+        height: auto!important;
+        margin-top: auto!important;
+    }
+    .address {
+        height: auto;
+        margin: 14px;
+        padding-top: 829px;
+
+    }
+    .page-color {
+        height: 880px!important;
+    }
+
+
+.menu-content {
+    float: inline-end;
+}
+
+.images img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.upper-section {
+    height: 150px;
+    background-color: lightpink!important;
+    padding-left: 40px;
+}
+
+.name-section {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+}
+
+.navbar-expand-lg {
+    height: 45px;
+    background-color: #7952B3!important;
+    color: #fff !important;
+    padding-top: 10px;
+
+
+}
+
+.dropdown-toggle {
+    color: #fff !important;
+}
+
+.announce-ment {
+    height: 45px;
+    background-color: #F9AB03!important;
+    padding-left: 10px;
+}
+
+.announce-ment p {
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+}
+.page-color {
+    height: 650px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.fees-header {
+    height: 40px;
+    background-color: blue!important;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3px;
+    color: #fff;
+}
+.fees-structure {
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #fff;
+}
+.fees-structure h3{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: #000;
+}
+.fees-structure h5 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: #000;
+    
+}
+
+.footer {
+    height: 350px;
+    background-color:hsl(212, 58%, 21%);
+}
+.address {
+    color: #EEEEEE;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.options {
+    color: #EEEEEE;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.footer iframe {
+    padding-top: 20px;
+}
