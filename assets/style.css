@@ -14,10 +14,26 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .logo-section {
-        display: flex;
-        flex-flow: row;
-        gap: 20px;
+    
+    #logo{
+        float: right!important;
+    }
+    /* .navbar-toggler{
+        background-color: #000;
+    }
+    #navi .navbar-toggler-icon{
+        background-color: #000;
+        color: #fff!important;
+    } */
+    #navbarSupportedContent{
+        z-index: 9999;
+        background-color: #173456;
+        color: #000!important;
+    }
+    #navbarSupportedContent  li a{
+        color: #000!important;
+        padding-left: 15px;
+        border-bottom: 1px solid #fff;
     }
     .menu-content {
         height: auto!important;
@@ -40,6 +56,9 @@ body {
     } */
     .slider-area {
         height: auto!important;
+    }
+    .slider-area  img{
+        height: 350px!important;
     }
     .live-option {
         height: auto!important;
@@ -68,22 +87,23 @@ body {
         font-size: 5px;
         margin-right: 18px;
     }
-    .image-section img {
-        height: 350px;
-        width: 385px;
-        padding: 5px;
-    }
+    
     .about-section {
-        padding: 5px;
+        height: auto!important;
     }
-    .university-image {
-        height: 100px;
-        width: 100px;
-        display: none;
+    
+    .university-image img{
+       
+        width: 100%;
+        
     }
-    .founder-details img {
-        display: none;
+    .founder-details{
+        height: auto!important;
     }
+   .founder-details img{
+    height: 300px;
+    margin-top: 150px;
+   }
     .founder-details h2 {
         height: auto!important;
         margin-top: 190px;
@@ -92,10 +112,11 @@ body {
         height: auto!important;
         margin-top: 15px;
     }
-    .video-gallery p {
+    .video-gallery{
         height: auto!important;
-        margin-top: 275px;
+        margin-top: 15px;
     }
+   
     .video-gallery iframe {
         height: 200px;
         width: 400px;
@@ -103,12 +124,12 @@ body {
     }
     .footer {
         height: auto!important;
-        margin-top: 100px;
+       
     }
     .address {
         height: auto;
         margin: 14px;
-        padding-top: 829px;
+        /* padding-top: 829px; */
 
     }
 }
@@ -174,8 +195,8 @@ body {
 
 }
 
-.dropdown-toggle {
-    color: #fff !important;
+#navbarSupportedContent  ul li a{
+    color: #fff!important;
 }
 
 .announce-ment {
@@ -253,8 +274,8 @@ body {
 }
 
 .founder-details img {
-    padding-top: 20px;
-    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .founder-details h2 {
@@ -294,7 +315,7 @@ body {
 }
 
 .footer {
-    height: 350px;
+    height: auto;
     background-color:#173456;
 }
 .address {
