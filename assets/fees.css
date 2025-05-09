@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .top-links {
     height: 45px;
@@ -41,6 +42,7 @@ body {
     .page-color {
         height: 880px!important;
     }
+}
 
 
 .menu-content {
@@ -69,7 +71,7 @@ body {
 
 .navbar-expand-lg {
     height: 45px;
-    background-color: #7952B3!important;
+    background-color: #7952B3;
     color: #fff !important;
     padding-top: 10px;
 
