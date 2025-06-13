@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.dash-board {
+    height: 610px;
+    width: 300px;
+    background-color: #000;
+}
+.dash-board img {
+    padding: 10px;
+   
+}
