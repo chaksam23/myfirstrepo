@@ -6,19 +6,94 @@ body {
     height: 610px;
     width: 300px;
     background-color: #000;
+    display: flex;
+    flex-direction: row;
 }
 .dash-board img {
     padding: 10px;
    
 }
-/* .first-content {
-    color: white;
-    /* font-size: 20px; */
-    /* text-align: right;
-} */
- .first-logo p{
-    color: white;
-    padding-left: 20px;
+.first-logo {
     display: flex;
-    
- }
+    flex-direction: row;
+    gap: 5px;
+}
+.label {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row; */
+}
+.second-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.label {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row; */
+}
+.third-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.label {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row; */
+}
+.fourth-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.label {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row; */
+}
+.fifth-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.label {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row; */
+}
+.sixth-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.label {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    /* display: flex;
+    flex-direction: row; */
+}
