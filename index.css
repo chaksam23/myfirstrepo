@@ -11,8 +11,14 @@ body {
     padding: 10px;
    
 }
-.dash-board p {
+/* .first-content {
     color: white;
-    font-size: 20px;
-    padding-left: 5px;
-}
+    /* font-size: 20px; */
+    /* text-align: right;
+} */
+ .first-logo p{
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    
+ }
