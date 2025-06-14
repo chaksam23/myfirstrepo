@@ -18,7 +18,7 @@ body {
     flex-direction: row;
     gap: 5px;
 }
-.label {
+.first-logo a{
     position: relative;
     top: 8px;
     color: white;
@@ -26,13 +26,14 @@ body {
     text-align: right;
     /* display: flex;
     flex-direction: row; */
+     text-decoration: none;
 }
 .second-logo {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.label {
+.second-logo a {
     position: relative;
     top: 8px;
     color: white;
@@ -40,13 +41,14 @@ body {
     text-align: right;
     /* display: flex;
     flex-direction: row; */
+     text-decoration: none;
 }
 .third-logo {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.label {
+.third-logo a{
     position: relative;
     top: 8px;
     color: white;
@@ -54,13 +56,14 @@ body {
     text-align: right;
     /* display: flex;
     flex-direction: row; */
+     text-decoration: none;
 }
 .fourth-logo {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.label {
+.fourth-logo a {
     position: relative;
     top: 8px;
     color: white;
@@ -68,13 +71,14 @@ body {
     text-align: right;
     /* display: flex;
     flex-direction: row; */
+     text-decoration: none;
 }
 .fifth-logo {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.label {
+.fifth-logo a {
     position: relative;
     top: 8px;
     color: white;
@@ -82,13 +86,14 @@ body {
     text-align: right;
     /* display: flex;
     flex-direction: row; */
+     text-decoration: none;
 }
 .sixth-logo {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.label {
+.sixth-logo a {
     position: relative;
     top: 8px;
     color: white;
@@ -96,4 +101,5 @@ body {
     text-align: right;
     /* display: flex;
     flex-direction: row; */
+    text-decoration: none;
 }
